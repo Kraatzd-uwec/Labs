@@ -1,0 +1,54 @@
+h1{
+    Color:blue;
+}
+h2, h3{
+    color:goldenrod;
+}
+
+h1{
+    background-color: goldenrod;
+}
+p{
+    font-size: larger;
+}
+li{
+    font-size: large;
+}
+p{
+    background-color: blue;
+}
+p{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+ol{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+h2{
+    font-weight: 100;
+}
+h3{
+    font-weight:100; 
+}
+h3{
+    text-align: center;
+}
+p{
+    text-align: center;
+}
+p{
+    margin:1rem;
+}
+h1{
+    margin:80px;
+}
+h1{
+    text-align: center;
+}
+
+p{
+    padding:1rem;
+}
+li{
+    padding: 0.3em;
+}
