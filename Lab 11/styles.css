@@ -1,0 +1,58 @@
+body{
+    font-family: 'Cormorant Garamond';
+    margin: 0;
+    background-color: #c8d3c5; 
+}
+header{
+    background-color: #799191;
+    position: fixed;
+    width: 100%;
+    display:inline-block;
+}
+header>nav>a{
+    color: black;
+    text-decoration: none;
+    padding: 1rem;
+    display: inline-block;
+}
+section{
+    font-family: 'Cormorant Garamond';
+}
+h2{
+    font-size: xx-large;
+}
+p{
+    font-size: 16px;
+}
+.ourstory{
+    border: 1px solid #97afaf;
+    border-radius: 4px;
+    padding: 5px 1px;
+    width: 800px;
+}
+.ourstory>img{
+    background-color: #7a9190;    
+    padding: 5px;
+    width: 450px;
+} 
+.dinner{
+    background-color: #97afaf;
+    padding: 1rem 2rem;
+    width: 50%;
+}
+.desserts{
+    background-color: #97afaf;
+    width: 50%;
+    padding: 1rem 2rem;
+}
+.beer{
+    background-color: #97afaf;
+    width: 50%;
+    padding: 1rem 2rem;
+}
+.specialtydrinks{
+    background-color: #97afaf;
+    width: 50%;
+    padding: 1rem 2rem;
+}
+
