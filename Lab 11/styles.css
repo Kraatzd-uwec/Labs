@@ -8,12 +8,23 @@ header{
     position: fixed;
     width: 100%;
     display:inline-block;
+    top: 0;
+    align-items: center;
+}
+header img{
+    max-width: 25rem;
+    margin: 0rem;
+}
+main{
+    margin-top: 10rem;
 }
 header>nav>a{
     color: black;
     text-decoration: none;
     padding: 1rem;
     display: inline-block;
+    font-size: x-large;
+    left: 500%;
 }
 section{
     font-family: 'Cormorant Garamond';
@@ -24,35 +35,38 @@ h2{
 p{
     font-size: 16px;
 }
+.contact{
+    display: inline-block;
+    width: 60%;
+}
 .ourstory{
-    border: 1px solid #97afaf;
+    border: 4px solid #97afaf;
     border-radius: 4px;
-    padding: 5px 1px;
-    width: 800px;
+    padding: 5px 20px;
+    margin: 10px;
 }
 .ourstory>img{
     background-color: #7a9190;    
     padding: 5px;
-    width: 450px;
+    max-width: 350px;
+    width: 35%;
+    margin-right: 40px 40px;
 } 
-.dinner{
+.dinner, .desserts, .beer, .specialtydrinks{
     background-color: #97afaf;
-    padding: 1rem 2rem;
-    width: 50%;
+    border: 4px solid #627575;
+    margin: 45px;
+    padding: 0rem 2rem;
+    width: 25%;
+    display: inline-block;
+    justify-content: center;
+    vertical-align: top;
 }
-.desserts{
-    background-color: #97afaf;
-    width: 50%;
-    padding: 1rem 2rem;
+.beerimage img{
+    background-color: #7a9190;    
+    padding: 5px;
+    width: 350px;
+    margin-left: 200px;
+    margin-bottom: 70px;
 }
-.beer{
-    background-color: #97afaf;
-    width: 50%;
-    padding: 1rem 2rem;
-}
-.specialtydrinks{
-    background-color: #97afaf;
-    width: 50%;
-    padding: 1rem 2rem;
-}
-
+    
