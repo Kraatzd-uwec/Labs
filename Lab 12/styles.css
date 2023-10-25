@@ -3,6 +3,8 @@ body{
     background-color: #18810f;
     color: #fff; 
     font-family: 'Montserrat', sans-serif;
+    background-image: url(images/eyeballs.svg);
+    background-size: 20%;
 }
 header{
     background-color: #000;
@@ -31,23 +33,44 @@ form{
     max-width:calc(90% - 4rem);
     margin: 1rem auto;
 }
-text, email, date, number, color{
+input[type=text][type=email],[type=data],[type=number],[type=color]{
     font-size: 1.25rem;
-    width: calc(100% - 1rem);
+    width: calc(100 - 1rem);
     border: 3px solid yellowgreen;
     padding: .5rem;
     border-radius: .25rem;
 }
-
-
-color{
+input[type=color]{
     width: 4rem;
     height: 4rem;
     border-radius: 2rem;
 }
-Focus: text, email, date, number, color{
+input:Focus[type=text][type=email],[type=data],[type=number],[type=color]{
     background-color: black;
     color: white;
     outline: none;
-
+}
+.actions{
+    font-family: 'Eater', cursive;
+    font-size: 1.5rem;
+    padding: 1rem;
+    border-radius: 2rem;
+    border: 3px solid yellowgreen;
+    margin: 1rem 2rem 0 0;
+}
+.actions[type=sumbit]{
+    background-color: yellowgreen;
+}
+.actions[type=reset]{
+    background-color: black;
+    color: yellowgreen;
+}
+.actions[type=submit] :hover{
+    background-color: black;
+    color: yellowgreen;
+}
+.actions[type=reset] :hover{
+    color: black;
+    background-color: red;
+    border-color: red;
 }
