@@ -9,7 +9,6 @@ header{
     width: 100%;
     display:inline-block;
     top: 0;
-    align-items: center;
 }
 header img{
     max-width: 25rem;

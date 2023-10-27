@@ -33,9 +33,9 @@ form{
     max-width:calc(90% - 4rem);
     margin: 1rem auto;
 }
-input[type=text][type=email],[type=data],[type=number],[type=color]{
+input[type=text],[type=email],[type=date],[type=number],[type=color]{
     font-size: 1.25rem;
-    width: calc(100 - 1rem);
+    width: calc(100% - 1rem);
     border: 3px solid yellowgreen;
     padding: .5rem;
     border-radius: .25rem;
@@ -45,12 +45,12 @@ input[type=color]{
     height: 4rem;
     border-radius: 2rem;
 }
-input:Focus[type=text][type=email],[type=data],[type=number],[type=color]{
+input:Focus[type=text],input:Focus[type=email],input:Focus[type=date],input:Focus[type=number],input:Focus[type=color]{
     background-color: black;
     color: white;
     outline: none;
 }
-.actions{
+input[type=submit],[type=reset]{
     font-family: 'Eater', cursive;
     font-size: 1.5rem;
     padding: 1rem;
@@ -58,18 +58,18 @@ input:Focus[type=text][type=email],[type=data],[type=number],[type=color]{
     border: 3px solid yellowgreen;
     margin: 1rem 2rem 0 0;
 }
-.actions[type=sumbit]{
+input[type=submit]{
     background-color: yellowgreen;
 }
-.actions[type=reset]{
+input[type=reset]{
     background-color: black;
     color: yellowgreen;
 }
-.actions[type=submit] :hover{
+input:hover[type=submit]{
     background-color: black;
     color: yellowgreen;
 }
-.actions[type=reset] :hover{
+input:hover[type=reset]{
     color: black;
     background-color: red;
     border-color: red;
