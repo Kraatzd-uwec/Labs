@@ -1,0 +1,15 @@
+a{
+    background-color: #f72127;
+    color: #fff;
+    padding: 2rem;
+    display: inline-block;
+    transition: 1s ease-in-out 1s;
+}
+ a:hover{
+    background-color: #811216;
+    transition: 1s ease-in-out 1s;
+}
+p:hover{
+    color: blue;
+    transition: .5s ease-in .7s;
+}
