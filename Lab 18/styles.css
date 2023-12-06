@@ -1,0 +1,74 @@
+body{
+    background-color: #C1B49A;
+    color: #ffffff;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+header{
+    margin: .75px;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    background-color: #0b132b65;
+    position: relative;
+}
+header nav a{
+    display: block;
+    color: #C1B49A;
+    text-decoration: none;
+    padding: .3rem;
+}
+header nav :hover{
+    text-decoration: underline;
+    color: #C2D7A8;
+}
+footer{
+    background-image: url(images/peninsulas-background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: black;
+    position: auto;
+}
+footer img{
+    margin-left: 2rem;
+}
+h4{
+    padding-top: .5rem;
+    padding-right: .5rem;
+}
+section{
+    background-color: #C2D7A8;
+    width: fit-content;
+    padding: 1rem;
+    margin: 2rem;
+    filter: drop-shadow(5px 5px 4px grey);
+    border: 2px solid grey;
+    max-width: 40rem;
+}
+.section img{
+    object-fit: contain;
+}
+
+.DNR{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+@media (min-width:1000px){
+    main{
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+    }
+    .map{
+        grid-column: 1/2;
+    }
+    .DNR{
+        grid-column: 2/3;
+        
+    }
+    .wissota{
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+    }
+
+}
