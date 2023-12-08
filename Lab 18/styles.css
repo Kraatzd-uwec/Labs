@@ -71,14 +71,18 @@ footer{
     background-repeat: no-repeat;
     background-size: cover;
     color: black;
-    position: auto;
+    
 }
 footer img{
     margin-left: 2rem;
 }
 h4{
-    padding-top: .5rem;
-    padding-right: .5rem;
+    padding-top: 2rem;
+    padding-left: 1rem;
+}
+h4:after{
+    content: "↓";
+    padding-left: .5rem;
 }
 section{
     background-color: #C2D7A8;
@@ -98,8 +102,8 @@ section{
     align-items: center;
 }
 
-@media (min-width:1000px){
-    Body{
-    display: ;
+@media (max-width:1000px){
+    main{
+    display: block;
     }
 }
